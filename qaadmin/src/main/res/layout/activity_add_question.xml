@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="trainedge.qaadmin.AddQuestionActivity">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <TextView
+            android:text="Instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="30sp"
+            android:padding="7sp"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Input your question here with 4 options and select the correct answer and the category of your question."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|italic"
+            android:textAlignment="textStart"
+            android:padding="10sp" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_ques_add" />
+
+</android.support.design.widget.CoordinatorLayout>

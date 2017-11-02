@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BrainTrain</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unknown_sign_in_response">error</string>
+    <string name="sign_in_cancelled">cancelled</string>
+    <string name="no_internet_connection">no internet</string>
+    <string name="unknown_error">unknown</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_take_test">TakeTestActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_test_ques">TestQuesActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+
+</resources>

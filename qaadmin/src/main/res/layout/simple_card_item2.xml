@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Question"
+            android:maxLength="100"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tv_question"
+            android:layout_marginEnd="11dp"
+            app:srcCompat="@drawable/ic_edit_black_24dp" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_edit"
+            android:layout_below="@+id/tv_question"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
